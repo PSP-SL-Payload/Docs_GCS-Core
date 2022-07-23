@@ -88,9 +88,6 @@ $(document).ready(function(){initNavTree('dc/d65/class_sensor_hub_interface_1_1_
   <div class="headertitle"><div class="title">SensorHubInterface.SensorHubInterface Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>SensorHub Serial Port Interface.  
- <a href="../../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for SensorHubInterface.SensorHubInterface:</div>
 <div class="dyncontent">
@@ -104,7 +101,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6a38a1d6c86c4a54867a51480d5b679b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a serial interface for communicating with the SensorHub.  <a href="../../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#a6a38a1d6c86c4a54867a51480d5b679b">More...</a><br /></td></tr>
 <tr class="separator:a6a38a1d6c86c4a54867a51480d5b679b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb2189e6ed925b89921b2b4a4d00e6e7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#abb2189e6ed925b89921b2b4a4d00e6e7">WritePacket_RadioFloat</a> (self, List[float] floats)</td></tr>
-<tr class="memdesc:abb2189e6ed925b89921b2b4a4d00e6e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write Packet.  <a href="../../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#abb2189e6ed925b89921b2b4a4d00e6e7">More...</a><br /></td></tr>
+<tr class="memdesc:abb2189e6ed925b89921b2b4a4d00e6e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a Float radio packet over the serial port.  <a href="../../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#abb2189e6ed925b89921b2b4a4d00e6e7">More...</a><br /></td></tr>
 <tr class="separator:abb2189e6ed925b89921b2b4a4d00e6e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdd75649060a92c4d52cbfb833003e41"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#abdd75649060a92c4d52cbfb833003e41">WritePacket_RadioDouble</a> (self, List[float] doubles)</td></tr>
 <tr class="memdesc:abdd75649060a92c4d52cbfb833003e41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a Double radio packet over the serial port.  <a href="../../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#abdd75649060a92c4d52cbfb833003e41">More...</a><br /></td></tr>
@@ -131,15 +128,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aaafe365b81ed6e7d2f62991e2a387f16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a Handshake radio packet over the serial port.  <a href="../../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#aaafe365b81ed6e7d2f62991e2a387f16">More...</a><br /></td></tr>
 <tr class="separator:aaafe365b81ed6e7d2f62991e2a387f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5c4d0ee5d9b5ef3eecb548783c87a9f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#ad5c4d0ee5d9b5ef3eecb548783c87a9f">__PacketReceived__</a> (self, dict packet)</td></tr>
-<tr class="memdesc:ad5c4d0ee5d9b5ef3eecb548783c87a9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parsing Packet Helper Functions (Don't Call)  <a href="../../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#ad5c4d0ee5d9b5ef3eecb548783c87a9f">More...</a><br /></td></tr>
+<tr class="memdesc:ad5c4d0ee5d9b5ef3eecb548783c87a9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is automatically called by <a class="el" href="../../df/d95/namespace_serial_interface.html">SerialInterface</a> after a packet is received and parsed.  <a href="../../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#ad5c4d0ee5d9b5ef3eecb548783c87a9f">More...</a><br /></td></tr>
 <tr class="separator:ad5c4d0ee5d9b5ef3eecb548783c87a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27ff5f9c63565aa91bdf53b630bf6bbb"><td class="memItemLeft" align="right" valign="top">Tuple[dict, bytearray, bool]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#a27ff5f9c63565aa91bdf53b630bf6bbb">__ParseSensorHubPacket__</a> (self, dict packet, int packetID, bytearray packetBytes)</td></tr>
 <tr class="memdesc:a27ff5f9c63565aa91bdf53b630bf6bbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses serial packets specific to SensorHub.  <a href="../../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#a27ff5f9c63565aa91bdf53b630bf6bbb">More...</a><br /></td></tr>
 <tr class="separator:a27ff5f9c63565aa91bdf53b630bf6bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >SensorHub Serial Port Interface. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6a38a1d6c86c4a54867a51480d5b679b" name="a6a38a1d6c86c4a54867a51480d5b679b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6a38a1d6c86c4a54867a51480d5b679b">&#9670;&nbsp;</a></span>__init__()</h2>
 
@@ -187,8 +182,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Parsing Packet Helper Functions (Don't Call) </p>
-<p >Is automatically called by <a class="el" href="../../df/d95/namespace_serial_interface.html">SerialInterface</a> after a packet is received and parsed.</p>
+<p>Is automatically called by <a class="el" href="../../df/d95/namespace_serial_interface.html">SerialInterface</a> after a packet is received and parsed. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">packet</td><td>(dict) - The packet received</td></tr>
@@ -318,8 +312,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Write Packet. </p>
-<p >Writes a Float radio packet over the serial port.</p>
+<p>Writes a Float radio packet over the serial port. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">floats</td><td>(List[float]) - An array of exactly 4 floats to write.</td></tr>

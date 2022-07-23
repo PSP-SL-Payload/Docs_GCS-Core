@@ -123,19 +123,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9cce9508a5245b607895c4817a71d8c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Continuosly reads the serial buffer until all of the strings in the array strsToMatch is matched.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a9cce9508a5245b607895c4817a71d8c8">More...</a><br /></td></tr>
 <tr class="separator:a9cce9508a5245b607895c4817a71d8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a851a9643b8f0c4a800f2dc6dc4b44d5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a851a9643b8f0c4a800f2dc6dc4b44d5b">PacketAvailable</a> (self)</td></tr>
-<tr class="memdesc:a851a9643b8f0c4a800f2dc6dc4b44d5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Availability.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a851a9643b8f0c4a800f2dc6dc4b44d5b">More...</a><br /></td></tr>
+<tr class="memdesc:a851a9643b8f0c4a800f2dc6dc4b44d5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if there are packets available to read from the serial buffer.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a851a9643b8f0c4a800f2dc6dc4b44d5b">More...</a><br /></td></tr>
 <tr class="separator:a851a9643b8f0c4a800f2dc6dc4b44d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2aee5c1eec7b3258f64bf8e5818d77d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a2aee5c1eec7b3258f64bf8e5818d77d4">SerialStringAvailable</a> (self)</td></tr>
 <tr class="memdesc:a2aee5c1eec7b3258f64bf8e5818d77d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if there are serial strings available to read from the serial buffer.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a2aee5c1eec7b3258f64bf8e5818d77d4">More...</a><br /></td></tr>
 <tr class="separator:a2aee5c1eec7b3258f64bf8e5818d77d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5e20d35217e19fe2bd9e9425b0bd88f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#ad5e20d35217e19fe2bd9e9425b0bd88f">StartReading</a> (self)</td></tr>
-<tr class="memdesc:ad5e20d35217e19fe2bd9e9425b0bd88f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Background Thread Stuff.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#ad5e20d35217e19fe2bd9e9425b0bd88f">More...</a><br /></td></tr>
+<tr class="memdesc:ad5e20d35217e19fe2bd9e9425b0bd88f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts a background reading thread, which will fill up the buffer with serial strings and packets as they arrive.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#ad5e20d35217e19fe2bd9e9425b0bd88f">More...</a><br /></td></tr>
 <tr class="separator:ad5e20d35217e19fe2bd9e9425b0bd88f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2c5a7a8c2b5867118f9ce73ddf96d82"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#af2c5a7a8c2b5867118f9ce73ddf96d82">StopReading</a> (self)</td></tr>
 <tr class="memdesc:af2c5a7a8c2b5867118f9ce73ddf96d82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops the background reading thread if it has been started.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#af2c5a7a8c2b5867118f9ce73ddf96d82">More...</a><br /></td></tr>
 <tr class="separator:af2c5a7a8c2b5867118f9ce73ddf96d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a728f6a2722384dc139d59e55f0577d50"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a728f6a2722384dc139d59e55f0577d50">__TryToInitSerialPort__</a> (self)</td></tr>
-<tr class="memdesc:a728f6a2722384dc139d59e55f0577d50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private Methods (Don't Call)  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a728f6a2722384dc139d59e55f0577d50">More...</a><br /></td></tr>
+<tr class="memdesc:a728f6a2722384dc139d59e55f0577d50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to connect the serial port to the member variable comPort.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a728f6a2722384dc139d59e55f0577d50">More...</a><br /></td></tr>
 <tr class="separator:a728f6a2722384dc139d59e55f0577d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7d4880a8f4ca3efb6376b2210a75bbc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#aa7d4880a8f4ca3efb6376b2210a75bbc">__WritePacket__</a> (self, int packetId, bytearray packet)</td></tr>
 <tr class="memdesc:aa7d4880a8f4ca3efb6376b2210a75bbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the given packet bytes across the serial port with the given packet ID.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#aa7d4880a8f4ca3efb6376b2210a75bbc">More...</a><br /></td></tr>
@@ -539,8 +539,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Private Methods (Don't Call) </p>
-<p >Attempts to connect the serial port to the member variable comPort.</p>
+<p>Attempts to connect the serial port to the member variable comPort. </p>
 <dl class="section return"><dt>Returns</dt><dd>(bool) - True if successfully connected to serial port </dd></dl>
 
 </div>
@@ -647,8 +646,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Read Availability. </p>
-<p >Returns true if there are packets available to read from the serial buffer</p>
+<p>Returns true if there are packets available to read from the serial buffer. </p>
 <dl class="section return"><dt>Returns</dt><dd>(bool) - True if at least one packet is available to read from the serial buffer </dd></dl>
 
 </div>
@@ -720,8 +718,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Background Thread Stuff. </p>
-<p >Starts a background reading thread, which will fill up the buffer with serial strings and packets as they arrive. </p>
+<p>Starts a background reading thread, which will fill up the buffer with serial strings and packets as they arrive. </p>
 
 </div>
 </div>

@@ -89,9 +89,6 @@ $(document).ready(function(){initNavTree('df/d25/class_button_handler_interface_
   <div class="headertitle"><div class="title">ButtonHandlerInterface.ButtonHandlerInterface Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>ButtonHandler Serial Port Interface.  
- <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for ButtonHandlerInterface.ButtonHandlerInterface:</div>
 <div class="dyncontent">
@@ -105,7 +102,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3f596745b8f915a73dda48ef6746ff7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a serial interface for communicating with the ButtonHandler.  <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a3f596745b8f915a73dda48ef6746ff7d">More...</a><br /></td></tr>
 <tr class="separator:a3f596745b8f915a73dda48ef6746ff7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac51c555ccdff93e678a143c87b4fca25"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#ac51c555ccdff93e678a143c87b4fca25">WaitForSwitch</a> (self, <a class="el" href="../../d3/d76/class_constants_1_1_switch_i_ds.html">Constants.SwitchIDs</a> switchID, float timeBetweenChecks=0.2)</td></tr>
-<tr class="memdesc:ac51c555ccdff93e678a143c87b4fca25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Public Functions.  <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#ac51c555ccdff93e678a143c87b4fca25">More...</a><br /></td></tr>
+<tr class="memdesc:ac51c555ccdff93e678a143c87b4fca25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blocks and waits for a switch to be pressed then unpressed before returning.  <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#ac51c555ccdff93e678a143c87b4fca25">More...</a><br /></td></tr>
 <tr class="separator:ac51c555ccdff93e678a143c87b4fca25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83d849db6e07232977acadd8691ee19b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d76/class_constants_1_1_switch_i_ds.html">Constants.SwitchIDs</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a83d849db6e07232977acadd8691ee19b">WaitForAnySwitch</a> (self, List[<a class="el" href="../../d3/d76/class_constants_1_1_switch_i_ds.html">Constants.SwitchIDs</a>] switchIDs, float timeBetweenChecks=0.2)</td></tr>
 <tr class="memdesc:a83d849db6e07232977acadd8691ee19b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blocks and waits for any of the switches given to be pressed then unpressed before returning.  <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a83d849db6e07232977acadd8691ee19b">More...</a><br /></td></tr>
@@ -129,13 +126,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa15e2b98cf1f2ecfe65f93934a5313a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a boolean whether or not the switch is currently unpressed.  <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#aa15e2b98cf1f2ecfe65f93934a5313a2">More...</a><br /></td></tr>
 <tr class="separator:aa15e2b98cf1f2ecfe65f93934a5313a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f6bfcae335fd7f1609c06c9b34500da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d36/class_constants_1_1_switch_states.html">Constants.SwitchStates</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a8f6bfcae335fd7f1609c06c9b34500da">__GetSwitchState__</a> (self, <a class="el" href="../../d3/d76/class_constants_1_1_switch_i_ds.html">Constants.SwitchIDs</a> switchID)</td></tr>
-<tr class="memdesc:a8f6bfcae335fd7f1609c06c9b34500da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private Functions.  <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a8f6bfcae335fd7f1609c06c9b34500da">More...</a><br /></td></tr>
+<tr class="memdesc:a8f6bfcae335fd7f1609c06c9b34500da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the switch's state.  <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a8f6bfcae335fd7f1609c06c9b34500da">More...</a><br /></td></tr>
 <tr class="separator:a8f6bfcae335fd7f1609c06c9b34500da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af89eb95dd1234c8e0b281c1faf023779"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#af89eb95dd1234c8e0b281c1faf023779">__SetSwitchState__</a> (self, <a class="el" href="../../d3/d76/class_constants_1_1_switch_i_ds.html">Constants.SwitchIDs</a> switchID, <a class="el" href="../../d1/d36/class_constants_1_1_switch_states.html">Constants.SwitchStates</a> state)</td></tr>
 <tr class="memdesc:af89eb95dd1234c8e0b281c1faf023779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the switch's state.  <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#af89eb95dd1234c8e0b281c1faf023779">More...</a><br /></td></tr>
 <tr class="separator:af89eb95dd1234c8e0b281c1faf023779"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d0af0cca4486ddba912e32f40587549"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a2d0af0cca4486ddba912e32f40587549">__PacketReceived__</a> (self, dict packet)</td></tr>
-<tr class="memdesc:a2d0af0cca4486ddba912e32f40587549"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parsing Packet Helper Functions (Don't Call)  <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a2d0af0cca4486ddba912e32f40587549">More...</a><br /></td></tr>
+<tr class="memdesc:a2d0af0cca4486ddba912e32f40587549"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is automatically called by <a class="el" href="../../df/d95/namespace_serial_interface.html">SerialInterface</a> after a packet is received and parsed.  <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a2d0af0cca4486ddba912e32f40587549">More...</a><br /></td></tr>
 <tr class="separator:a2d0af0cca4486ddba912e32f40587549"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe0afb251f1bd0e9e326bf42a198579d"><td class="memItemLeft" align="right" valign="top">Tuple[dict, bytearray, bool]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#abe0afb251f1bd0e9e326bf42a198579d">__ParseButtonHandlerPacket__</a> (self, dict packet, int packetID, bytearray packetBytes)</td></tr>
 <tr class="memdesc:abe0afb251f1bd0e9e326bf42a198579d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses serial packets specific to ButtonHandler.  <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#abe0afb251f1bd0e9e326bf42a198579d">More...</a><br /></td></tr>
@@ -148,9 +145,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a63b8e3863dbcd60cc2f423069c390c72"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a63b8e3863dbcd60cc2f423069c390c72">currentStatesMutex</a></td></tr>
 <tr class="separator:a63b8e3863dbcd60cc2f423069c390c72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >ButtonHandler Serial Port Interface. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3f596745b8f915a73dda48ef6746ff7d" name="a3f596745b8f915a73dda48ef6746ff7d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3f596745b8f915a73dda48ef6746ff7d">&#9670;&nbsp;</a></span>__init__()</h2>
 
@@ -198,8 +193,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Private Functions. </p>
-<p >Returns the switch's state. Uses the mutex to access currentStates, so it is thread-safe.</p>
+<p>Returns the switch's state. </p>
+<p >Uses the mutex to access currentStates, so it is thread-safe.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">switchID</td><td>(<a class="el" href="../../d3/d76/class_constants_1_1_switch_i_ds.html">Constants.SwitchIDs</a>) - The ID of the switch to check.</td></tr>
@@ -236,8 +231,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Parsing Packet Helper Functions (Don't Call) </p>
-<p >Is automatically called by <a class="el" href="../../df/d95/namespace_serial_interface.html">SerialInterface</a> after a packet is received and parsed.</p>
+<p>Is automatically called by <a class="el" href="../../df/d95/namespace_serial_interface.html">SerialInterface</a> after a packet is received and parsed. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">packet</td><td>(dict) - The packet received</td></tr>
@@ -586,8 +580,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Public Functions. </p>
-<p >Blocks and waits for a switch to be pressed then unpressed before returning.</p>
+<p>Blocks and waits for a switch to be pressed then unpressed before returning. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">switchID</td><td>(<a class="el" href="../../d3/d76/class_constants_1_1_switch_i_ds.html">Constants.SwitchIDs</a>) - The ID of the switch to block on. </td></tr>
