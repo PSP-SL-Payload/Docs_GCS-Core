@@ -108,9 +108,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abf4c70f327f5c9500c73d9706acfe589"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7f/class_serial_interface_1_1_reading_thread.html#abf4c70f327f5c9500c73d9706acfe589">stop</a> (self)</td></tr>
 <tr class="memdesc:abf4c70f327f5c9500c73d9706acfe589"><td class="mdescLeft">&#160;</td><td class="mdescRight">This stops the thread from reading from the serial port continuously.  <a href="../../d1/d7f/class_serial_interface_1_1_reading_thread.html#abf4c70f327f5c9500c73d9706acfe589">More...</a><br /></td></tr>
 <tr class="separator:abf4c70f327f5c9500c73d9706acfe589"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf342e1118cb1b32b1014f09824e7194"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7f/class_serial_interface_1_1_reading_thread.html#acf342e1118cb1b32b1014f09824e7194">__ParsePacket__</a> (self, bytearray packetBytes)</td></tr>
-<tr class="memdesc:acf342e1118cb1b32b1014f09824e7194"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a single packet from packetBytes.  <a href="../../d1/d7f/class_serial_interface_1_1_reading_thread.html#acf342e1118cb1b32b1014f09824e7194">More...</a><br /></td></tr>
-<tr class="separator:acf342e1118cb1b32b1014f09824e7194"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada54e8ad20cd42b6f217d664f500e83a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7f/class_serial_interface_1_1_reading_thread.html#ada54e8ad20cd42b6f217d664f500e83a">__ParsePacket__</a> (self, bytearray packetBytes)</td></tr>
+<tr class="memdesc:ada54e8ad20cd42b6f217d664f500e83a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a single packet from packetBytes.  <a href="../../d1/d7f/class_serial_interface_1_1_reading_thread.html#ada54e8ad20cd42b6f217d664f500e83a">More...</a><br /></td></tr>
+<tr class="separator:ada54e8ad20cd42b6f217d664f500e83a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2708c5c7abca604e905bd02cc768f935"><td class="memItemLeft" align="right" valign="top">Tuple[int, bytearray]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7f/class_serial_interface_1_1_reading_thread.html#a2708c5c7abca604e905bd02cc768f935">UnpackUint64_t</a> (bytearray packetBytes)</td></tr>
 <tr class="separator:a2708c5c7abca604e905bd02cc768f935"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba35788f45a3a544f7068dcad2b7feab"><td class="memItemLeft" align="right" valign="top">Tuple[int, bytearray]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7f/class_serial_interface_1_1_reading_thread.html#aba35788f45a3a544f7068dcad2b7feab">UnpackUint32_t</a> (bytearray packetBytes)</td></tr>
@@ -166,14 +166,14 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="acf342e1118cb1b32b1014f09824e7194" name="acf342e1118cb1b32b1014f09824e7194"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf342e1118cb1b32b1014f09824e7194">&#9670;&nbsp;</a></span>__ParsePacket__()</h2>
+<a id="ada54e8ad20cd42b6f217d664f500e83a" name="ada54e8ad20cd42b6f217d664f500e83a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada54e8ad20cd42b6f217d664f500e83a">&#9670;&nbsp;</a></span>__ParsePacket__()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> None SerialInterface.ReadingThread.__ParsePacket__ </td>
+          <td class="memname"> int SerialInterface.ReadingThread.__ParsePacket__ </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -196,10 +196,11 @@ Public Member Functions</h2></td></tr>
 <p >Calls the unpacking methods to convert the bytes into actual data.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">packetBytes</td><td>(bytearray) - An array of bytes to parse the packet from. </td></tr>
+    <tr><td class="paramname">packetBytes</td><td>(bytearray) - An array of bytes to parse the packet from.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>(int) - The packet ID read </dd></dl>
 
 </div>
 </div>

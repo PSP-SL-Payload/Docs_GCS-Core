@@ -4,9 +4,13 @@ var annotated_dup =
       [ "ButtonHandlerInterface", "df/d25/class_button_handler_interface_1_1_button_handler_interface.html", "df/d25/class_button_handler_interface_1_1_button_handler_interface" ]
     ] ],
     [ "Constants", "d2/d6e/namespace_constants.html", [
+      [ "LedIDs", "d9/de1/class_constants_1_1_led_i_ds.html", null ],
       [ "SerialPacketIDs", "db/d79/class_constants_1_1_serial_packet_i_ds.html", null ],
       [ "SwitchIDs", "d3/d76/class_constants_1_1_switch_i_ds.html", null ],
       [ "SwitchStates", "d1/d36/class_constants_1_1_switch_states.html", null ]
+    ] ],
+    [ "LCD", "d6/d25/namespace_l_c_d.html", [
+      [ "LCD", "d6/d2e/class_l_c_d_1_1_l_c_d.html", "d6/d2e/class_l_c_d_1_1_l_c_d" ]
     ] ],
     [ "SensorHubInterface", "dd/d0e/namespace_sensor_hub_interface.html", [
       [ "SensorHubInterface", "dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html", "dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface" ]

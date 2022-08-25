@@ -101,9 +101,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ade75721eb5365de97ba2be889a156843"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#ade75721eb5365de97ba2be889a156843">DisconnectSerialPort</a> (self)</td></tr>
 <tr class="memdesc:ade75721eb5365de97ba2be889a156843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnects the serial port and closes it.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#ade75721eb5365de97ba2be889a156843">More...</a><br /></td></tr>
 <tr class="separator:ade75721eb5365de97ba2be889a156843"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b6b3cae6b997541c29731dd3bbafb4b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a8b6b3cae6b997541c29731dd3bbafb4b">WritePacket_Test</a> (self, float double1, float double2, int int1)</td></tr>
-<tr class="memdesc:a8b6b3cae6b997541c29731dd3bbafb4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a Test packet over the serial port.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a8b6b3cae6b997541c29731dd3bbafb4b">More...</a><br /></td></tr>
-<tr class="separator:a8b6b3cae6b997541c29731dd3bbafb4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef45e3bc49b094f275963c751daede4b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#aef45e3bc49b094f275963c751daede4b">WritePacket_PingRequest</a> (self, int sequenceNum=0)</td></tr>
+<tr class="memdesc:aef45e3bc49b094f275963c751daede4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a ping request packet over the serial port.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#aef45e3bc49b094f275963c751daede4b">More...</a><br /></td></tr>
+<tr class="separator:aef45e3bc49b094f275963c751daede4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2f91bea877e72f5be36646e064530ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#ae2f91bea877e72f5be36646e064530ad">WritePacket_PingReply</a> (self, int sequenceNum=0)</td></tr>
+<tr class="memdesc:ae2f91bea877e72f5be36646e064530ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a ping reply packet over the serial port.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#ae2f91bea877e72f5be36646e064530ad">More...</a><br /></td></tr>
+<tr class="separator:ae2f91bea877e72f5be36646e064530ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf4a6ca8f5c2beceec2040311e1d3144"><td class="memItemLeft" align="right" valign="top">dict&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#acf4a6ca8f5c2beceec2040311e1d3144">WaitForPacket</a> (self, int packetID, float delaySeconds=0.1, float timeoutSeconds=None)</td></tr>
 <tr class="memdesc:acf4a6ca8f5c2beceec2040311e1d3144"><td class="mdescLeft">&#160;</td><td class="mdescRight">Continuosly reads the serial buffer until the exact packet ID is matched.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#acf4a6ca8f5c2beceec2040311e1d3144">More...</a><br /></td></tr>
 <tr class="separator:acf4a6ca8f5c2beceec2040311e1d3144"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,9 +173,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3a5ccb5df763ad2d31d706417e1d9823"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a3a5ccb5df763ad2d31d706417e1d9823">__AppendSerialString__</a> (self, str string)</td></tr>
 <tr class="memdesc:a3a5ccb5df763ad2d31d706417e1d9823"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pops a packet from the serialStringInputBuffer in a thread-safe manner.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a3a5ccb5df763ad2d31d706417e1d9823">More...</a><br /></td></tr>
 <tr class="separator:a3a5ccb5df763ad2d31d706417e1d9823"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7930d43e6c668f14d9cd05c369966b12"><td class="memItemLeft" align="right" valign="top">Tuple[Union[bytearray, str], bool]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a7930d43e6c668f14d9cd05c369966b12">ReadFromSerialPort_SynchronousTimeout</a> (self)</td></tr>
-<tr class="memdesc:a7930d43e6c668f14d9cd05c369966b12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a single line directly from the serial port if one exists and returns it.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a7930d43e6c668f14d9cd05c369966b12">More...</a><br /></td></tr>
-<tr class="separator:a7930d43e6c668f14d9cd05c369966b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48b2af1a6d14be6bbdb3911207c48555"><td class="memItemLeft" align="right" valign="top">Tuple[Union[bytearray, str], bool]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a48b2af1a6d14be6bbdb3911207c48555">ReadFromSerialPort_Blocking</a> (self)</td></tr>
+<tr class="memdesc:a48b2af1a6d14be6bbdb3911207c48555"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a single line directly from the serial port if one exists and returns it.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a48b2af1a6d14be6bbdb3911207c48555">More...</a><br /></td></tr>
+<tr class="separator:a48b2af1a6d14be6bbdb3911207c48555"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -188,6 +191,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a4ab81f41796acf09b41c35b07e50ad7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2f7f2c03d419650c15e9b205248d0a1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#ae2f7f2c03d419650c15e9b205248d0a1">serialPacketInputBufferLock</a></td></tr>
 <tr class="separator:ae2f7f2c03d419650c15e9b205248d0a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a887c48e664f08bf7718dc84686bb29f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a887c48e664f08bf7718dc84686bb29f1">LCD</a></td></tr>
+<tr class="separator:a887c48e664f08bf7718dc84686bb29f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a28050e1ade341407b789729f1b4a29f8" name="a28050e1ade341407b789729f1b4a29f8"></a>
@@ -651,14 +656,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7930d43e6c668f14d9cd05c369966b12" name="a7930d43e6c668f14d9cd05c369966b12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7930d43e6c668f14d9cd05c369966b12">&#9670;&nbsp;</a></span>ReadFromSerialPort_SynchronousTimeout()</h2>
+<a id="a48b2af1a6d14be6bbdb3911207c48555" name="a48b2af1a6d14be6bbdb3911207c48555"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48b2af1a6d14be6bbdb3911207c48555">&#9670;&nbsp;</a></span>ReadFromSerialPort_Blocking()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> Tuple[Union[bytearray, str], bool] SerialInterface.SerialPortInterface.ReadFromSerialPort_SynchronousTimeout </td>
+          <td class="memname"> Tuple[Union[bytearray, str], bool] SerialInterface.SerialPortInterface.ReadFromSerialPort_Blocking </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -668,7 +673,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reads a single line directly from the serial port if one exists and returns it. </p>
-<p >This is meant to be called from background thread.</p>
+<p >This is meant to be called from background thread because it is blocking.</p>
 <dl class="section return"><dt>Returns</dt><dd>(Tuple[Union[str, bytearray], bool])<ul>
 <li>Union[bytearray, str]<ul>
 <li>bytearray - The array of bytes that contain the packet's data.</li>
@@ -1062,14 +1067,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8b6b3cae6b997541c29731dd3bbafb4b" name="a8b6b3cae6b997541c29731dd3bbafb4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b6b3cae6b997541c29731dd3bbafb4b">&#9670;&nbsp;</a></span>WritePacket_Test()</h2>
+<a id="ae2f91bea877e72f5be36646e064530ad" name="ae2f91bea877e72f5be36646e064530ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2f91bea877e72f5be36646e064530ad">&#9670;&nbsp;</a></span>WritePacket_PingReply()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> bool SerialInterface.SerialPortInterface.WritePacket_Test </td>
+          <td class="memname"> bool SerialInterface.SerialPortInterface.WritePacket_PingReply </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -1077,20 +1082,8 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>double1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>double2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>int1</em>&#160;</td>
+          <td class="paramname"><em>sequenceNum</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1100,12 +1093,47 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Writes a Test packet over the serial port. </p>
+<p>Writes a ping reply packet over the serial port. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">double1</td><td>(float) - The first double to write. </td></tr>
-    <tr><td class="paramname">double2</td><td>(float) - The second double to write. </td></tr>
-    <tr><td class="paramname">int1</td><td>(int) - The first integer to write.</td></tr>
+    <tr><td class="paramname">sequenceNum</td><td>(int) - The sequence number to send</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(bool) True: If the packet was successfully written. False: If the packet was not successfully written. </dd></dl>
+
+</div>
+</div>
+<a id="aef45e3bc49b094f275963c751daede4b" name="aef45e3bc49b094f275963c751daede4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef45e3bc49b094f275963c751daede4b">&#9670;&nbsp;</a></span>WritePacket_PingRequest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool SerialInterface.SerialPortInterface.WritePacket_PingRequest </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sequenceNum</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes a ping request packet over the serial port. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sequenceNum</td><td>(int) - The sequence number to send</td></tr>
   </table>
   </dd>
 </dl>
@@ -1114,6 +1142,20 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a887c48e664f08bf7718dc84686bb29f1" name="a887c48e664f08bf7718dc84686bb29f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a887c48e664f08bf7718dc84686bb29f1">&#9670;&nbsp;</a></span>LCD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SerialInterface.SerialPortInterface.LCD</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8e7f12d7dd49830b53c9b661e016ebf0" name="a8e7f12d7dd49830b53c9b661e016ebf0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8e7f12d7dd49830b53c9b661e016ebf0">&#9670;&nbsp;</a></span>packetInterruptFunc</h2>
 

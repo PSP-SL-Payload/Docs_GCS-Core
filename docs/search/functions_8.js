@@ -1,25 +1,9 @@
 var searchData=
 [
-  ['waitforallpackets_0',['WaitForAllPackets',['../de/d58/class_serial_interface_1_1_serial_port_interface.html#a6c1a5c0ebf0a8938dad07a2c5bcd3998',1,'SerialInterface::SerialPortInterface']]],
-  ['waitforallserialstrings_1',['WaitForAllSerialStrings',['../de/d58/class_serial_interface_1_1_serial_port_interface.html#a9cce9508a5245b607895c4817a71d8c8',1,'SerialInterface::SerialPortInterface']]],
-  ['waitforanypacket_2',['WaitForAnyPacket',['../de/d58/class_serial_interface_1_1_serial_port_interface.html#ab049b896cf31a79e84e00b041b154f3e',1,'SerialInterface::SerialPortInterface']]],
-  ['waitforanyserialstring_3',['WaitForAnySerialString',['../de/d58/class_serial_interface_1_1_serial_port_interface.html#ab735693b46df732c6b16dbb303accaae',1,'SerialInterface::SerialPortInterface']]],
-  ['waitforanyswitch_4',['WaitForAnySwitch',['../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a83d849db6e07232977acadd8691ee19b',1,'ButtonHandlerInterface::ButtonHandlerInterface']]],
-  ['waitforanyswitchpress_5',['WaitForAnySwitchPress',['../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#aa78b57138a86fcd92af4ce6e983a4177',1,'ButtonHandlerInterface::ButtonHandlerInterface']]],
-  ['waitforanyswitchunpress_6',['WaitForAnySwitchUnpress',['../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a9625e39af8a2e8c4bf3d2f25a07eb4d2',1,'ButtonHandlerInterface::ButtonHandlerInterface']]],
-  ['waitforpacket_7',['WaitForPacket',['../de/d58/class_serial_interface_1_1_serial_port_interface.html#acf4a6ca8f5c2beceec2040311e1d3144',1,'SerialInterface::SerialPortInterface']]],
-  ['waitforserialstring_8',['WaitForSerialString',['../de/d58/class_serial_interface_1_1_serial_port_interface.html#a386b48af7d3008d566b22a2358655e8a',1,'SerialInterface::SerialPortInterface']]],
-  ['waitforswitch_9',['WaitForSwitch',['../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#ac51c555ccdff93e678a143c87b4fca25',1,'ButtonHandlerInterface::ButtonHandlerInterface']]],
-  ['waitforswitchpress_10',['WaitForSwitchPress',['../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a550f064efff2feaeecaa937d7cadc954',1,'ButtonHandlerInterface::ButtonHandlerInterface']]],
-  ['waitforswitchunpress_11',['WaitForSwitchUnpress',['../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#af6056a8783ac721639a233c663ced0c9',1,'ButtonHandlerInterface::ButtonHandlerInterface']]],
-  ['writepacket_5fradiodouble_12',['WritePacket_RadioDouble',['../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#abdd75649060a92c4d52cbfb833003e41',1,'SensorHubInterface::SensorHubInterface']]],
-  ['writepacket_5fradiofloat_13',['WritePacket_RadioFloat',['../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#abb2189e6ed925b89921b2b4a4d00e6e7',1,'SensorHubInterface::SensorHubInterface']]],
-  ['writepacket_5fradiogpscoords_14',['WritePacket_RadioGPSCoords',['../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#af5477e6628ccfb557986783ea2d219f3',1,'SensorHubInterface::SensorHubInterface']]],
-  ['writepacket_5fradiohandshake_15',['WritePacket_RadioHandshake',['../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#aaafe365b81ed6e7d2f62991e2a387f16',1,'SensorHubInterface::SensorHubInterface']]],
-  ['writepacket_5fradioint16_16',['WritePacket_RadioInt16',['../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#a454c5e2a293addc6d555871d5ed9bc59',1,'SensorHubInterface::SensorHubInterface']]],
-  ['writepacket_5fradioint32_17',['WritePacket_RadioInt32',['../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#aa9a26c3a23b948626ca8451ec2afef18',1,'SensorHubInterface::SensorHubInterface']]],
-  ['writepacket_5fradioint8_18',['WritePacket_RadioInt8',['../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#a652bc4ea17156007f90b061e27ede644',1,'SensorHubInterface::SensorHubInterface']]],
-  ['writepacket_5fradiostring_19',['WritePacket_RadioString',['../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#a01e5544c25c2b027c8e81266318ed60c',1,'SensorHubInterface::SensorHubInterface']]],
-  ['writepacket_5fradiotime_20',['WritePacket_RadioTime',['../dc/d65/class_sensor_hub_interface_1_1_sensor_hub_interface.html#acf0855243a859abc26bc064ea99ec79b',1,'SensorHubInterface::SensorHubInterface']]],
-  ['writepacket_5ftest_21',['WritePacket_Test',['../de/d58/class_serial_interface_1_1_serial_port_interface.html#a8b6b3cae6b997541c29731dd3bbafb4b',1,'SerialInterface::SerialPortInterface']]]
+  ['sensorhubtest_0',['SensorHubTest',['../dc/d69/namespace_main.html#a7792803a71b0d0407ad039d6301069c4',1,'Main']]],
+  ['serialstringavailable_1',['SerialStringAvailable',['../de/d58/class_serial_interface_1_1_serial_port_interface.html#a2aee5c1eec7b3258f64bf8e5818d77d4',1,'SerialInterface::SerialPortInterface']]],
+  ['signal_5fhandler_2',['signal_handler',['../dc/d69/namespace_main.html#a38f854140e7fb842b61c756a73d0b3bb',1,'Main']]],
+  ['startreading_3',['StartReading',['../de/d58/class_serial_interface_1_1_serial_port_interface.html#ad5e20d35217e19fe2bd9e9425b0bd88f',1,'SerialInterface::SerialPortInterface']]],
+  ['stop_4',['stop',['../d1/d7f/class_serial_interface_1_1_reading_thread.html#abf4c70f327f5c9500c73d9706acfe589',1,'SerialInterface::ReadingThread']]],
+  ['stopreading_5',['StopReading',['../de/d58/class_serial_interface_1_1_serial_port_interface.html#af2c5a7a8c2b5867118f9ce73ddf96d82',1,'SerialInterface::SerialPortInterface']]]
 ];

@@ -51,7 +51,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"annotated.html",
+"df/d95/namespace_serial_interface.html#abf2735ef3bf7ffd63eeeadc3a838d563"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -125,6 +125,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa15e2b98cf1f2ecfe65f93934a5313a2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#aa15e2b98cf1f2ecfe65f93934a5313a2">IsSwitchUnpressed</a> (self, <a class="el" href="../../d3/d76/class_constants_1_1_switch_i_ds.html">Constants.SwitchIDs</a> switchID)</td></tr>
 <tr class="memdesc:aa15e2b98cf1f2ecfe65f93934a5313a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a boolean whether or not the switch is currently unpressed.  <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#aa15e2b98cf1f2ecfe65f93934a5313a2">More...</a><br /></td></tr>
 <tr class="separator:aa15e2b98cf1f2ecfe65f93934a5313a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1f6e9c04e2b5f101b7f5f0ede67ca5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#ac1f6e9c04e2b5f101b7f5f0ede67ca5a">WritePacket_LEDState</a> (self, <a class="el" href="../../d9/de1/class_constants_1_1_led_i_ds.html">Constants.LedIDs</a> ledID, bool state)</td></tr>
+<tr class="memdesc:ac1f6e9c04e2b5f101b7f5f0ede67ca5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes an LED packet over the serial port to turn an LED on or off.  <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#ac1f6e9c04e2b5f101b7f5f0ede67ca5a">More...</a><br /></td></tr>
+<tr class="separator:ac1f6e9c04e2b5f101b7f5f0ede67ca5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af96d042c4f3b6e21f6040a5a34417cee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#af96d042c4f3b6e21f6040a5a34417cee">WritePacket_MultiLEDState</a> (self, List[Tuple[<a class="el" href="../../d9/de1/class_constants_1_1_led_i_ds.html">Constants.LedIDs</a>, bool]] ledStates)</td></tr>
+<tr class="memdesc:af96d042c4f3b6e21f6040a5a34417cee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a multi-LED packet over the serial port to turn multiple LEDs on or off at the same time.  <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#af96d042c4f3b6e21f6040a5a34417cee">More...</a><br /></td></tr>
+<tr class="separator:af96d042c4f3b6e21f6040a5a34417cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a000a13dc4f3540e1cfdfea23c770e1b2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a000a13dc4f3540e1cfdfea23c770e1b2">TurnOnAllLEDs</a> (self)</td></tr>
+<tr class="memdesc:a000a13dc4f3540e1cfdfea23c770e1b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns all the LEDs on.  <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a000a13dc4f3540e1cfdfea23c770e1b2">More...</a><br /></td></tr>
+<tr class="separator:a000a13dc4f3540e1cfdfea23c770e1b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7fefdfb76d8019e7eeccc6e49c67f3a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#ad7fefdfb76d8019e7eeccc6e49c67f3a">TurnOffAllLEDs</a> (self)</td></tr>
+<tr class="memdesc:ad7fefdfb76d8019e7eeccc6e49c67f3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns all the LEDs off.  <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#ad7fefdfb76d8019e7eeccc6e49c67f3a">More...</a><br /></td></tr>
+<tr class="separator:ad7fefdfb76d8019e7eeccc6e49c67f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3db423a4c453b081237af0979ddbb4f0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a3db423a4c453b081237af0979ddbb4f0">InitialLightShow</a> (self)</td></tr>
+<tr class="memdesc:a3db423a4c453b081237af0979ddbb4f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs the initial boot-up LED light show.  <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a3db423a4c453b081237af0979ddbb4f0">More...</a><br /></td></tr>
+<tr class="separator:a3db423a4c453b081237af0979ddbb4f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f6bfcae335fd7f1609c06c9b34500da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d36/class_constants_1_1_switch_states.html">Constants.SwitchStates</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a8f6bfcae335fd7f1609c06c9b34500da">__GetSwitchState__</a> (self, <a class="el" href="../../d3/d76/class_constants_1_1_switch_i_ds.html">Constants.SwitchIDs</a> switchID)</td></tr>
 <tr class="memdesc:a8f6bfcae335fd7f1609c06c9b34500da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the switch's state.  <a href="../../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a8f6bfcae335fd7f1609c06c9b34500da">More...</a><br /></td></tr>
 <tr class="separator:a8f6bfcae335fd7f1609c06c9b34500da"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -342,6 +357,26 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a3db423a4c453b081237af0979ddbb4f0" name="a3db423a4c453b081237af0979ddbb4f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3db423a4c453b081237af0979ddbb4f0">&#9670;&nbsp;</a></span>InitialLightShow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None ButtonHandlerInterface.ButtonHandlerInterface.InitialLightShow </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Performs the initial boot-up LED light show. </p>
+
+</div>
+</div>
 <a id="aee3eca75d14f5bd308ce4f171e2e48a8" name="aee3eca75d14f5bd308ce4f171e2e48a8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aee3eca75d14f5bd308ce4f171e2e48a8">&#9670;&nbsp;</a></span>IsSwitchPressed()</h2>
 
@@ -413,6 +448,46 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>(bool) - Whether the switch is unpressed or not. </dd></dl>
+
+</div>
+</div>
+<a id="ad7fefdfb76d8019e7eeccc6e49c67f3a" name="ad7fefdfb76d8019e7eeccc6e49c67f3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7fefdfb76d8019e7eeccc6e49c67f3a">&#9670;&nbsp;</a></span>TurnOffAllLEDs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None ButtonHandlerInterface.ButtonHandlerInterface.TurnOffAllLEDs </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Turns all the LEDs off. </p>
+
+</div>
+</div>
+<a id="a000a13dc4f3540e1cfdfea23c770e1b2" name="a000a13dc4f3540e1cfdfea23c770e1b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a000a13dc4f3540e1cfdfea23c770e1b2">&#9670;&nbsp;</a></span>TurnOnAllLEDs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None ButtonHandlerInterface.ButtonHandlerInterface.TurnOnAllLEDs </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Turns all the LEDs on. </p>
 
 </div>
 </div>
@@ -674,6 +749,87 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ac1f6e9c04e2b5f101b7f5f0ede67ca5a" name="ac1f6e9c04e2b5f101b7f5f0ede67ca5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1f6e9c04e2b5f101b7f5f0ede67ca5a">&#9670;&nbsp;</a></span>WritePacket_LEDState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool ButtonHandlerInterface.ButtonHandlerInterface.WritePacket_LEDState </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/de1/class_constants_1_1_led_i_ds.html">Constants.LedIDs</a>&#160;</td>
+          <td class="paramname"><em>ledID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes an LED packet over the serial port to turn an LED on or off. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ledID</td><td>(<a class="el" href="../../d9/de1/class_constants_1_1_led_i_ds.html">Constants.LedIDs</a>) - The LED to control. </td></tr>
+    <tr><td class="paramname">state</td><td>(bool) - True to turn LED HIGH, or False to set it LOW</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(bool) - True if the packet was successfully written. </dd></dl>
+
+</div>
+</div>
+<a id="af96d042c4f3b6e21f6040a5a34417cee" name="af96d042c4f3b6e21f6040a5a34417cee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af96d042c4f3b6e21f6040a5a34417cee">&#9670;&nbsp;</a></span>WritePacket_MultiLEDState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool ButtonHandlerInterface.ButtonHandlerInterface.WritePacket_MultiLEDState </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List[Tuple[<a class="el" href="../../d9/de1/class_constants_1_1_led_i_ds.html">Constants.LedIDs</a>, bool]]&#160;</td>
+          <td class="paramname"><em>ledStates</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes a multi-LED packet over the serial port to turn multiple LEDs on or off at the same time. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ledStates</td><td>(List[Tuple[<a class="el" href="../../d9/de1/class_constants_1_1_led_i_ds.html">Constants.LedIDs</a>, bool]]) - An array of LEDs and the states to set them to. Each LED is either passed with True to turn it on, or False to turn it off.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(bool) - True if the packet was successfully written. </dd></dl>
 
 </div>
 </div>

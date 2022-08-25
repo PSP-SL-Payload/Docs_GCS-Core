@@ -91,6 +91,8 @@ $(document).ready(function(){initNavTree('d2/d6e/namespace_constants.html','../.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de1/class_constants_1_1_led_i_ds.html">LedIDs</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d79/class_constants_1_1_serial_packet_i_ds.html">SerialPacketIDs</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d76/class_constants_1_1_switch_i_ds.html">SwitchIDs</a></td></tr>
@@ -100,16 +102,64 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a0ac520f7742cf76437c5d8e11de61586"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6e/namespace_constants.html#a0ac520f7742cf76437c5d8e11de61586">SENSOR_HUB_COM_PORT</a> = 'COM3'</td></tr>
+<tr class="memitem:a0ac520f7742cf76437c5d8e11de61586"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6e/namespace_constants.html#a0ac520f7742cf76437c5d8e11de61586">SENSOR_HUB_COM_PORT</a> = 'COM12'</td></tr>
 <tr class="separator:a0ac520f7742cf76437c5d8e11de61586"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fd38c945c97ebde11b425a4875a5822"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6e/namespace_constants.html#a4fd38c945c97ebde11b425a4875a5822">SENSOR_HUB_BAUD_RATE</a> = 9600</td></tr>
 <tr class="separator:a4fd38c945c97ebde11b425a4875a5822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ac70af962eff96701542be4a6f47bee"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6e/namespace_constants.html#a4ac70af962eff96701542be4a6f47bee">BUTTON_HANDLER_COM_PORT</a> = 'COM11'</td></tr>
+<tr class="separator:a4ac70af962eff96701542be4a6f47bee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ab04667039ac902f6033d927013ec10"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6e/namespace_constants.html#a2ab04667039ac902f6033d927013ec10">BUTTON_HANDLER_BAUD_RATE</a> = 9600</td></tr>
+<tr class="separator:a2ab04667039ac902f6033d927013ec10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a221c66c008c00b3d859ae1e66a125b59"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6e/namespace_constants.html#a221c66c008c00b3d859ae1e66a125b59">LOGFILE_DIR</a> = '../logs/'</td></tr>
 <tr class="separator:a221c66c008c00b3d859ae1e66a125b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a502b9a95915151776c6a8aecf89db513"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6e/namespace_constants.html#a502b9a95915151776c6a8aecf89db513">LOGFILE_NAME</a> = <a class="el" href="../../d2/d6e/namespace_constants.html#a221c66c008c00b3d859ae1e66a125b59">LOGFILE_DIR</a> + f'logFile{datetime.fromtimestamp(datetime.now().timestamp()).strftime(&quot;%H%M%S&quot;)}.txt'</td></tr>
+<tr class="memitem:a502b9a95915151776c6a8aecf89db513"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6e/namespace_constants.html#a502b9a95915151776c6a8aecf89db513">LOGFILE_NAME</a> = <a class="el" href="../../d2/d6e/namespace_constants.html#a221c66c008c00b3d859ae1e66a125b59">LOGFILE_DIR</a> + f'logFile_{datetime.fromtimestamp(datetime.now().timestamp()).strftime(&quot;%m%d%Y-%H%M%S&quot;)}.txt'</td></tr>
 <tr class="separator:a502b9a95915151776c6a8aecf89db513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82edd93476f055c1f23b4222e5848d02"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6e/namespace_constants.html#a82edd93476f055c1f23b4222e5848d02">IS_ON_PI</a> = 'linux' else False</td></tr>
+<tr class="separator:a82edd93476f055c1f23b4222e5848d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a2ab04667039ac902f6033d927013ec10" name="a2ab04667039ac902f6033d927013ec10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ab04667039ac902f6033d927013ec10">&#9670;&nbsp;</a></span>BUTTON_HANDLER_BAUD_RATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Constants.BUTTON_HANDLER_BAUD_RATE = 9600</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ac70af962eff96701542be4a6f47bee" name="a4ac70af962eff96701542be4a6f47bee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ac70af962eff96701542be4a6f47bee">&#9670;&nbsp;</a></span>BUTTON_HANDLER_COM_PORT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Constants.BUTTON_HANDLER_COM_PORT = 'COM11'</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82edd93476f055c1f23b4222e5848d02" name="a82edd93476f055c1f23b4222e5848d02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82edd93476f055c1f23b4222e5848d02">&#9670;&nbsp;</a></span>IS_ON_PI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Constants.IS_ON_PI = 'linux' else False</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a221c66c008c00b3d859ae1e66a125b59" name="a221c66c008c00b3d859ae1e66a125b59"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a221c66c008c00b3d859ae1e66a125b59">&#9670;&nbsp;</a></span>LOGFILE_DIR</h2>
 
@@ -131,7 +181,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string Constants.LOGFILE_NAME = <a class="el" href="../../d2/d6e/namespace_constants.html#a221c66c008c00b3d859ae1e66a125b59">LOGFILE_DIR</a> + f'logFile{datetime.fromtimestamp(datetime.now().timestamp()).strftime(&quot;%H%M%S&quot;)}.txt'</td>
+          <td class="memname">string Constants.LOGFILE_NAME = <a class="el" href="../../d2/d6e/namespace_constants.html#a221c66c008c00b3d859ae1e66a125b59">LOGFILE_DIR</a> + f'logFile_{datetime.fromtimestamp(datetime.now().timestamp()).strftime(&quot;%m%d%Y-%H%M%S&quot;)}.txt'</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -159,7 +209,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string Constants.SENSOR_HUB_COM_PORT = 'COM3'</td>
+          <td class="memname">string Constants.SENSOR_HUB_COM_PORT = 'COM12'</td>
         </tr>
       </table>
 </div><div class="memdoc">
