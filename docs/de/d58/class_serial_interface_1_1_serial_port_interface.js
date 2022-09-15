@@ -23,6 +23,8 @@ var class_serial_interface_1_1_serial_port_interface =
     [ "WaitForAllPackets", "de/d58/class_serial_interface_1_1_serial_port_interface.html#a6c1a5c0ebf0a8938dad07a2c5bcd3998", null ],
     [ "WaitForAllSerialStrings", "de/d58/class_serial_interface_1_1_serial_port_interface.html#a9cce9508a5245b607895c4817a71d8c8", null ],
     [ "WaitForAnyPacket", "de/d58/class_serial_interface_1_1_serial_port_interface.html#ab049b896cf31a79e84e00b041b154f3e", null ],
+    [ "WaitForAnyPacketNoMatch", "de/d58/class_serial_interface_1_1_serial_port_interface.html#a1e829b2a9b4a9e0409c8d868663d0696", null ],
+    [ "WaitForAnySerialString", "de/d58/class_serial_interface_1_1_serial_port_interface.html#a5ac28eb35e2d55dd604c70a0726faa4e", null ],
     [ "WaitForAnySerialString", "de/d58/class_serial_interface_1_1_serial_port_interface.html#ab735693b46df732c6b16dbb303accaae", null ],
     [ "WaitForPacket", "de/d58/class_serial_interface_1_1_serial_port_interface.html#acf4a6ca8f5c2beceec2040311e1d3144", null ],
     [ "WaitForSerialString", "de/d58/class_serial_interface_1_1_serial_port_interface.html#a386b48af7d3008d566b22a2358655e8a", null ],

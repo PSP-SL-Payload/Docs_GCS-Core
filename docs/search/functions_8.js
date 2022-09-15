@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['sensorhubtest_0',['SensorHubTest',['../dc/d69/namespace_main.html#a7792803a71b0d0407ad039d6301069c4',1,'Main']]],
-  ['serialstringavailable_1',['SerialStringAvailable',['../de/d58/class_serial_interface_1_1_serial_port_interface.html#a2aee5c1eec7b3258f64bf8e5818d77d4',1,'SerialInterface::SerialPortInterface']]],
-  ['signal_5fhandler_2',['signal_handler',['../dc/d69/namespace_main.html#a38f854140e7fb842b61c756a73d0b3bb',1,'Main']]],
-  ['startreading_3',['StartReading',['../de/d58/class_serial_interface_1_1_serial_port_interface.html#ad5e20d35217e19fe2bd9e9425b0bd88f',1,'SerialInterface::SerialPortInterface']]],
-  ['stop_4',['stop',['../d1/d7f/class_serial_interface_1_1_reading_thread.html#abf4c70f327f5c9500c73d9706acfe589',1,'SerialInterface::ReadingThread']]],
-  ['stopreading_5',['StopReading',['../de/d58/class_serial_interface_1_1_serial_port_interface.html#af2c5a7a8c2b5867118f9ce73ddf96d82',1,'SerialInterface::SerialPortInterface']]]
+  ['readfromserialport_5fblocking_0',['ReadFromSerialPort_Blocking',['../de/d58/class_serial_interface_1_1_serial_port_interface.html#a48b2af1a6d14be6bbdb3911207c48555',1,'SerialInterface::SerialPortInterface']]],
+  ['run_1',['run',['../d1/d7f/class_serial_interface_1_1_reading_thread.html#a54c09166d2139e1d3721ea140eb7fedd',1,'SerialInterface::ReadingThread']]]
 ];

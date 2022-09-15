@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['initiallightshow_0',['InitialLightShow',['../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#a3db423a4c453b081237af0979ddbb4f0',1,'ButtonHandlerInterface::ButtonHandlerInterface']]],
-  ['isswitchpressed_1',['IsSwitchPressed',['../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#aee3eca75d14f5bd308ce4f171e2e48a8',1,'ButtonHandlerInterface::ButtonHandlerInterface']]],
-  ['isswitchunpressed_2',['IsSwitchUnpressed',['../df/d25/class_button_handler_interface_1_1_button_handler_interface.html#aa15e2b98cf1f2ecfe65f93934a5313a2',1,'ButtonHandlerInterface::ButtonHandlerInterface']]]
+  ['getbuttonhandlerserialportname_0',['GetButtonHandlerSerialPortName',['../d1/d9d/namespace_serial_port_scanner.html#a26fa444752668792d6143a81ddf2a30c',1,'SerialPortScanner']]],
+  ['getsensorhubserialportname_1',['GetSensorHubSerialPortName',['../d1/d9d/namespace_serial_port_scanner.html#a162ca9f41f71b71f5a0db9554476add9',1,'SerialPortScanner']]],
+  ['getserialports_2',['GetSerialPorts',['../d1/d9d/namespace_serial_port_scanner.html#a28e673b12df7a2071b2585d058595a03',1,'SerialPortScanner']]]
 ];

@@ -110,6 +110,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acf4a6ca8f5c2beceec2040311e1d3144"><td class="memItemLeft" align="right" valign="top">dict&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#acf4a6ca8f5c2beceec2040311e1d3144">WaitForPacket</a> (self, int packetID, float delaySeconds=0.1, float timeoutSeconds=None)</td></tr>
 <tr class="memdesc:acf4a6ca8f5c2beceec2040311e1d3144"><td class="mdescLeft">&#160;</td><td class="mdescRight">Continuosly reads the serial buffer until the exact packet ID is matched.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#acf4a6ca8f5c2beceec2040311e1d3144">More...</a><br /></td></tr>
 <tr class="separator:acf4a6ca8f5c2beceec2040311e1d3144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e829b2a9b4a9e0409c8d868663d0696"><td class="memItemLeft" align="right" valign="top">dict&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a1e829b2a9b4a9e0409c8d868663d0696">WaitForAnyPacketNoMatch</a> (self, float delaySeconds=0.1, int timeoutSeconds=None)</td></tr>
+<tr class="memdesc:a1e829b2a9b4a9e0409c8d868663d0696"><td class="mdescLeft">&#160;</td><td class="mdescRight">Continuosly reads the serial buffer until any packet is read It is blocking.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a1e829b2a9b4a9e0409c8d868663d0696">More...</a><br /></td></tr>
+<tr class="separator:a1e829b2a9b4a9e0409c8d868663d0696"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab049b896cf31a79e84e00b041b154f3e"><td class="memItemLeft" align="right" valign="top">dict&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#ab049b896cf31a79e84e00b041b154f3e">WaitForAnyPacket</a> (self, List[int] packetIDsToMatch, float delaySeconds=0.1, int timeoutSeconds=None)</td></tr>
 <tr class="memdesc:ab049b896cf31a79e84e00b041b154f3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Continuosly reads the serial buffer until one of the packets in the array packetIDsToMatch is matched.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#ab049b896cf31a79e84e00b041b154f3e">More...</a><br /></td></tr>
 <tr class="separator:ab049b896cf31a79e84e00b041b154f3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -122,6 +125,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab735693b46df732c6b16dbb303accaae"><td class="memItemLeft" align="right" valign="top">Tuple[str, int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#ab735693b46df732c6b16dbb303accaae">WaitForAnySerialString</a> (self, List[str] strsToMatch, float delaySeconds=0.1, int timeoutSeconds=None)</td></tr>
 <tr class="memdesc:ab735693b46df732c6b16dbb303accaae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Continuosly reads the serial buffer until one of the strings in the array strsToMatch is matched.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#ab735693b46df732c6b16dbb303accaae">More...</a><br /></td></tr>
 <tr class="separator:ab735693b46df732c6b16dbb303accaae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ac28eb35e2d55dd604c70a0726faa4e"><td class="memItemLeft" align="right" valign="top">Tuple[str, int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a5ac28eb35e2d55dd604c70a0726faa4e">WaitForAnySerialString</a> (self, float delaySeconds=0.1, int timeoutSeconds=None)</td></tr>
+<tr class="memdesc:a5ac28eb35e2d55dd604c70a0726faa4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Continuosly reads the serial buffer until any serial string is available.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a5ac28eb35e2d55dd604c70a0726faa4e">More...</a><br /></td></tr>
+<tr class="separator:a5ac28eb35e2d55dd604c70a0726faa4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cce9508a5245b607895c4817a71d8c8"><td class="memItemLeft" align="right" valign="top">List[Tuple[str, int]]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a9cce9508a5245b607895c4817a71d8c8">WaitForAllSerialStrings</a> (self, List[str] strsToMatch, float delaySeconds=0.1, int timeoutSeconds=None)</td></tr>
 <tr class="memdesc:a9cce9508a5245b607895c4817a71d8c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Continuosly reads the serial buffer until all of the strings in the array strsToMatch is matched.  <a href="../../de/d58/class_serial_interface_1_1_serial_port_interface.html#a9cce9508a5245b607895c4817a71d8c8">More...</a><br /></td></tr>
 <tr class="separator:a9cce9508a5245b607895c4817a71d8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -907,8 +913,97 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a1e829b2a9b4a9e0409c8d868663d0696" name="a1e829b2a9b4a9e0409c8d868663d0696"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e829b2a9b4a9e0409c8d868663d0696">&#9670;&nbsp;</a></span>WaitForAnyPacketNoMatch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> dict SerialInterface.SerialPortInterface.WaitForAnyPacketNoMatch </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>delaySeconds</em> = <code>0.1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>timeoutSeconds</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Continuosly reads the serial buffer until any packet is read It is blocking. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">delaySeconds</td><td>(float) - The amount of delay between checking whether there is a packet available. </td></tr>
+    <tr><td class="paramname">timeoutSeconds</td><td>(float) - The amount of seconds before this method times out and returns None. If set to None, this method won't time out</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(dict) - The packet matched or None on timeout </dd></dl>
+
+</div>
+</div>
+<a id="a5ac28eb35e2d55dd604c70a0726faa4e" name="a5ac28eb35e2d55dd604c70a0726faa4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ac28eb35e2d55dd604c70a0726faa4e">&#9670;&nbsp;</a></span>WaitForAnySerialString() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> Tuple[str, int] SerialInterface.SerialPortInterface.WaitForAnySerialString </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>delaySeconds</em> = <code>0.1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>timeoutSeconds</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Continuosly reads the serial buffer until any serial string is available. </p>
+<p >It is blocking.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">delaySeconds</td><td>(float) - The amount of delay between checking whether there is a packet available. </td></tr>
+    <tr><td class="paramname">timeoutSeconds</td><td>(float) - The amount of seconds before this method times out and returns None. If set to None, this method won't time out.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>str - The string matched or None on timeout </dd></dl>
+
+</div>
+</div>
 <a id="ab735693b46df732c6b16dbb303accaae" name="ab735693b46df732c6b16dbb303accaae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab735693b46df732c6b16dbb303accaae">&#9670;&nbsp;</a></span>WaitForAnySerialString()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab735693b46df732c6b16dbb303accaae">&#9670;&nbsp;</a></span>WaitForAnySerialString() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

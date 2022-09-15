@@ -1,14 +1,17 @@
 var namespace_constants =
 [
-    [ "LedIDs", "d9/de1/class_constants_1_1_led_i_ds.html", null ],
-    [ "SerialPacketIDs", "db/d79/class_constants_1_1_serial_packet_i_ds.html", null ],
-    [ "SwitchIDs", "d3/d76/class_constants_1_1_switch_i_ds.html", null ],
-    [ "SwitchStates", "d1/d36/class_constants_1_1_switch_states.html", null ],
+    [ "LedIDs", "d9/de1/class_constants_1_1_led_i_ds.html", "d9/de1/class_constants_1_1_led_i_ds" ],
+    [ "SerialPacketIDs", "db/d79/class_constants_1_1_serial_packet_i_ds.html", "db/d79/class_constants_1_1_serial_packet_i_ds" ],
+    [ "SwitchIDs", "d3/d76/class_constants_1_1_switch_i_ds.html", "d3/d76/class_constants_1_1_switch_i_ds" ],
+    [ "SwitchStates", "d1/d36/class_constants_1_1_switch_states.html", "d1/d36/class_constants_1_1_switch_states" ],
     [ "BUTTON_HANDLER_BAUD_RATE", "d2/d6e/namespace_constants.html#a2ab04667039ac902f6033d927013ec10", null ],
-    [ "BUTTON_HANDLER_COM_PORT", "d2/d6e/namespace_constants.html#a4ac70af962eff96701542be4a6f47bee", null ],
+    [ "BUTTON_HANDLER_COM_PORT", "d2/d6e/namespace_constants.html#aa832bcfec3db452d104f285f61f5c0f1", null ],
+    [ "BUTTON_HANDLER_DEVICE_NAME", "d2/d6e/namespace_constants.html#a02bb1bc680882127368e194731a75c5e", null ],
+    [ "IS_DEBUG", "d2/d6e/namespace_constants.html#aa467cb2f6a42f6790ad1972b6d321fe9", null ],
     [ "IS_ON_PI", "d2/d6e/namespace_constants.html#a82edd93476f055c1f23b4222e5848d02", null ],
     [ "LOGFILE_DIR", "d2/d6e/namespace_constants.html#a221c66c008c00b3d859ae1e66a125b59", null ],
     [ "LOGFILE_NAME", "d2/d6e/namespace_constants.html#a502b9a95915151776c6a8aecf89db513", null ],
     [ "SENSOR_HUB_BAUD_RATE", "d2/d6e/namespace_constants.html#a4fd38c945c97ebde11b425a4875a5822", null ],
-    [ "SENSOR_HUB_COM_PORT", "d2/d6e/namespace_constants.html#a0ac520f7742cf76437c5d8e11de61586", null ]
+    [ "SENSOR_HUB_COM_PORT", "d2/d6e/namespace_constants.html#a197f1a667e26b8f3e7bb502ced37d35f", null ],
+    [ "SENSOR_HUB_DEVICE_NAME", "d2/d6e/namespace_constants.html#a636dfa7fa4cab3e69d5a987e3b36d1bd", null ]
 ];

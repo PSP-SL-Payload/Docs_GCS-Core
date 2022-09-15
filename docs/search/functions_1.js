@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['buttonhandlertest_0',['ButtonHandlerTest',['../dc/d69/namespace_main.html#a76ef98ed33bf7d3ab586bdcfe9fba895',1,'Main']]]
+  ['applycolor_0',['ApplyColor',['../d6/dff/namespace_logger.html#a1da2b80be8e2020565107557989f7b87',1,'Logger']]]
 ];

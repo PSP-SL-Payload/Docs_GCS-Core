@@ -52,7 +52,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"df/d95/namespace_serial_interface.html#abf2735ef3bf7ffd63eeeadc3a838d563"
+"de/d58/class_serial_interface_1_1_serial_port_interface.html#acf4a6ca8f5c2beceec2040311e1d3144"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
